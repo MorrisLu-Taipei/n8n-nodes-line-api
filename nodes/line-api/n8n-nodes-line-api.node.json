@@ -1,0 +1,13 @@
+{
+  "name": "n8n-nodes-line-api",
+  "version": "1.0.0",
+  "description": "An n8n custom node to send messages via LINE API",
+  "icon": "file:./n8n-nodes-line-api.node.svg",
+  "main": "n8n-nodes-line-api.node.ts",
+  "credentials": "n8n-nodes-line-api.credentials.ts",
+  "author": "Tiger AI Taiwan Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

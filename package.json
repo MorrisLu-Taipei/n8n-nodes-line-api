@@ -1,0 +1,23 @@
+{
+  "name": "n8n-nodes-line-api",
+  "version": "1.0.0",
+  "description": "Custom n8n node to interact with LINE API",
+  "main": "nodes/line-api/n8n-nodes-line-api.node.ts",
+  "files": [
+    "nodes/line-api/n8n-nodes-line-api.node.ts",
+    "nodes/line-api/n8n-nodes-line-api.node.json",
+    "credentials/n8n-nodes-line-api.credentials.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Tiger AI Taiwan Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
